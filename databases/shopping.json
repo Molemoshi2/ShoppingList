@@ -1,0 +1,10 @@
+{
+    "list": [
+      {
+        "id": "1",
+        "item": "jeans",
+        "quantity": 2,
+        "category": "clothing"
+      }
+    ]
+}
