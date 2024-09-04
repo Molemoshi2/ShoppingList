@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { listApi } from "./service/accessjson";
 import { setupListeners } from "@reduxjs/toolkit/query";
 
- const store = configureStore(
+ export const store = configureStore(
     {
         reducer:{
             [listApi.reducerPath] : listApi.reducer
